@@ -1,0 +1,26 @@
+{
+  "6": [
+    { "month": "Học kỳ 1", "title": "Nền tảng Giải tích & Hình học", "items": ["Khảo sát hàm số (Đơn điệu, Cực trị, Tiệm cận)", "Vectơ trong không gian & Hệ trục Oxyz"], "link": "/course/math-grade-12-6plus" },
+    { "month": "Học kỳ 2", "title": "Nguyên hàm & Tích phân", "items": ["Nguyên hàm cơ bản", "Tích phân & Ứng dụng diện tích/thể tích", "Phương trình mặt phẳng, đường thẳng"], "link": "/course/math-grade-12-6plus" },
+    { "month": "Cuối kỳ 2", "title": "Xác suất & Thống kê", "items": ["Các số đặc trưng đo mức độ phân tán", "Xác suất có điều kiện cơ bản"], "link": "/course/math-grade-12-6plus" },
+    { "month": "Tháng 5 - 6", "title": "Tổng ôn Tốt nghiệp", "items": ["Luyện đề thi tốt nghiệp THPT", "Rà soát kiến thức cơ bản"], "link": "/course/math-grade-12-6plus" }
+  ],
+  "7": [
+    { "month": "Học kỳ 1", "title": "Làm chủ Hàm số & Oxyz", "items": ["Ứng dụng đạo hàm (GTLN, GTNN thực tế)", "Tọa độ vectơ, Tích vô hướng & Góc"], "link": "/course/math-grade-12-7plus" },
+    { "month": "Học kỳ 2", "title": "Tích phân & Hình Oxyz nâng cao", "items": ["Tích phân đổi biến, từng phần", "Phương trình mặt cầu & Vị trí tương đối"], "link": "/course/math-grade-12-7plus" },
+    { "month": "Cuối kỳ 2", "title": "Xác suất thống kê ứng dụng", "items": ["Công thức xác suất toàn phần & Bayes", "Thống kê mẫu số liệu ghép nhóm"], "link": "/course/math-grade-12-7plus" },
+    { "month": "Tháng 4 - 6", "title": "Luyện đề Đại học", "items": ["Giải đề minh họa & Đề các năm", "Kỹ năng làm bài trắc nghiệm nhanh"], "link": "/course/math-grade-12-7plus" }
+  ],
+  "8": [
+    { "month": "Học kỳ 1", "title": "Vận dụng cao Hàm số & Hình học", "items": ["Bài toán tối ưu hóa thực tế (Hàm số)", "Biểu thức tọa độ & Bài toán Min-Max Oxyz"], "link": "/course/math-grade-12-8plus" },
+    { "month": "Học kỳ 2", "title": "Chinh phục Tích phân & Xác suất", "items": ["Ứng dụng Tích phân (Vận tốc, Dòng điện)", "Bài toán Xác suất có điều kiện nâng cao"], "link": "/course/math-grade-12-8plus" },
+    { "month": "Tháng 3 - 4", "title": "Tổng ôn chuyên sâu", "items": ["Hệ thống hóa toàn bộ kiến thức 12", "Luyện các dạng bài vận dụng cao"], "link": "/course/math-grade-12-8plus" },
+    { "month": "Tháng 5 - 6", "title": "Thực chiến phòng thi", "items": ["Luyện đề thử sức (Mock tests)", "Chiến thuật phân bổ thời gian"], "link": "/course/math-grade-12-8plus" }
+  ],
+  "9": [
+    { "month": "Giai đoạn 1", "title": "Tư duy Toán học đỉnh cao", "items": ["Khảo sát hàm số nâng cao (Hàm hợp, Hàm ẩn)", "Tư duy hình học Oxyz hiện đại"], "link": "/course/math-grade-12-8plus" },
+    { "month": "Giai đoạn 2", "title": "Làm chủ các chuyên đề khó", "items": ["Tích phân hàm ẩn & Ứng dụng thực tế khó", "Xác suất thống kê & Công thức Bayes mở rộng"], "link": "/course/math-grade-12-8plus" },
+    { "month": "Giai đoạn 3", "title": "Luyện thi Đánh giá năng lực", "items": ["Luyện đề HSA (ĐHQG HN)", "Luyện đề TSA (ĐHBK HN)"], "link": "/course/math-hsa" },
+    { "month": "Giai đoạn 4", "title": "Chinh phục điểm 10", "items": ["Tổng ôn các dạng bài lạ & cực khó", "Rèn bản lĩnh tâm lý phòng thi"], "link": "/course/math-tsa" }
+  ]
+}

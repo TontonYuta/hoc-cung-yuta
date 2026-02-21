@@ -4,6 +4,7 @@ import { CoursePage } from './pages/CoursePage';
 import { Math12RoadmapPage } from './pages/Math12RoadmapPage';
 import { DocumentsPage } from './pages/DocumentsPage';
 import { CVPage } from './pages/CVPage';
+import { EntertainmentPage } from './pages/EntertainmentPage';
 import { FloatingChat } from './components/FloatingChat';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/course/:id" element={<CoursePage />} />
         <Route path="/roadmap/math-12" element={<Math12RoadmapPage />} />
         <Route path="/documents" element={<DocumentsPage />} />
+        <Route path="/entertainment" element={<EntertainmentPage />} />
         <Route path="/about-me" element={<CVPage />} />
       </Routes>
       <FloatingChat />

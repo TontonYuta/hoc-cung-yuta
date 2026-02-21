@@ -1,20 +1,38 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Course } from '../types';
+import { Course, Category } from '../types';
 import { courseService } from '../services/courseService';
 import { CourseCard } from '../components/CourseCard';
 import { BookOpen, GraduationCap, Loader2, Code, Calculator, School, Target, PenTool, Trophy, CheckCircle2, Menu, X } from 'lucide-react';
 import { AVATAR_URL } from '../constants';
 
+const iconMap: { [key: string]: any } = {
+  GraduationCap,
+  Calculator,
+  School,
+  BookOpen,
+  Code,
+  Target,
+  PenTool,
+  Trophy
+};
+
 export function HomePage() {
   const [courses, setCourses] = useState<Course[]>([]);
+  const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    courseService.getAllCourses()
-      .then(setCourses)
+    Promise.all([
+      courseService.getAllCourses(),
+      courseService.getCategories()
+    ])
+      .then(([coursesData, categoriesData]) => {
+        setCourses(coursesData);
+        setCategories(categoriesData);
+      })
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
   }, []);
@@ -42,14 +60,6 @@ export function HomePage() {
       </div>
     );
   }
-
-  const categories = [
-    { id: 'high_school', title: 'Toán THPT', icon: GraduationCap },
-    { id: 'middle_school', title: 'Toán THCS', icon: Calculator },
-    { id: 'primary', title: 'Toán Tiểu Học', icon: School },
-    { id: 'university', title: 'Toán Đại Học', icon: BookOpen },
-    { id: 'informatics', title: 'Tin Học Đại Cương', icon: Code },
-  ];
 
   const roadmapSteps = [
     {
@@ -103,6 +113,7 @@ export function HomePage() {
             <button onClick={() => scrollToSection('courses')} className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Khóa học</button>
             <Link to="/roadmap/math-12" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Lộ trình Toán 12</Link>
             <Link to="/documents" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Tài liệu</Link>
+            <Link to="/entertainment" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Giải trí</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -139,6 +150,13 @@ export function HomePage() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Tài liệu
+              </Link>
+              <Link 
+                to="/entertainment" 
+                className="px-4 py-3 rounded-lg text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Giải trí
               </Link>
             </div>
           </div>
@@ -248,7 +266,7 @@ export function HomePage() {
           const categoryCourses = courses.filter(c => c.category === category.id);
           if (categoryCourses.length === 0) return null;
 
-          const Icon = category.icon;
+          const Icon = iconMap[category.icon] || BookOpen;
 
           return (
             <section key={category.id} className="relative group/section scroll-mt-24">

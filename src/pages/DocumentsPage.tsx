@@ -1,122 +1,26 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, FileText, Download, ExternalLink, Search, FolderOpen } from 'lucide-react';
+import { ArrowLeft, FileText, Download, ExternalLink, Search, FolderOpen, Loader2 } from 'lucide-react';
 import { AVATAR_URL } from '../constants';
+import { courseService } from '../services/courseService';
+import { DocumentItem } from '../types';
 
 export function DocumentsPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [documents, setDocuments] = useState<DocumentItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
-  const documents = [
-    {
-      id: 1,
-      title: "Tổng hợp công thức Toán 12 - Giải tích",
-      category: "Toán 12",
-      type: "PDF",
-      size: "2.5 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "20/02/2026"
-    },
-    {
-      id: 2,
-      title: "Đề thi thử THPT Quốc gia 2025 - Lần 1",
-      category: "Luyện đề",
-      type: "PDF",
-      size: "1.8 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "15/02/2026"
-    },
-    {
-      id: 3,
-      title: "Chuyên đề Hàm số và Đồ thị (Vận dụng cao)",
-      category: "Toán 12",
-      type: "PDF",
-      size: "3.2 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "10/02/2026"
-    },
-    {
-      id: 4,
-      title: "Bài tập Hình học không gian Oxyz - Từ cơ bản đến nâng cao",
-      category: "Toán 12",
-      type: "PDF",
-      size: "4.1 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "05/02/2026"
-    },
-    {
-      id: 5,
-      title: "Tổng ôn Công thức Lượng giác lớp 11",
-      category: "Toán 11",
-      type: "PDF",
-      size: "1.5 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "01/02/2026"
-    },
-    {
-      id: 6,
-      title: "500 bài tập trắc nghiệm Mũ - Logarit (Có đáp án)",
-      category: "Toán 12",
-      type: "PDF",
-      size: "5.6 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "25/01/2026"
-    },
-    {
-      id: 7,
-      title: "Đề cương ôn tập học kỳ 1 Toán 10",
-      category: "Toán 10",
-      type: "PDF",
-      size: "2.1 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "20/01/2026"
-    },
-    {
-      id: 8,
-      title: "Tuyển tập các bài toán Xác suất - Thống kê hay và khó",
-      category: "Toán 11",
-      type: "PDF",
-      size: "3.5 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "15/01/2026"
-    },
-    {
-      id: 9,
-      title: "Bộ đề thi thử HSA (Đánh giá năng lực) - Phần Tư duy định lượng",
-      category: "Luyện đề",
-      type: "PDF",
-      size: "4.8 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "10/01/2026"
-    },
-    {
-      id: 10,
-      title: "Chuyên đề Vectơ trong không gian (Lớp 11 & 12)",
-      category: "Toán 11",
-      type: "PDF",
-      size: "2.8 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "05/01/2026"
-    },
-    {
-      id: 11,
-      title: "Tổng hợp kiến thức Đại số 10 - Mệnh đề & Tập hợp",
-      category: "Toán 10",
-      type: "PDF",
-      size: "1.2 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "01/01/2026"
-    },
-    {
-      id: 12,
-      title: "20 Đề thi thử Toán THPTQG chọn lọc từ các trường Chuyên",
-      category: "Luyện đề",
-      type: "ZIP",
-      size: "15.4 MB",
-      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-      date: "28/12/2025"
-    }
-  ];
+  useEffect(() => {
+    courseService.getDocuments()
+      .then(setDocuments)
+      .catch(err => setError(err.message))
+      .finally(() => setLoading(false));
+  }, []);
+
+  if (loading) return <div className="h-screen flex items-center justify-center"><Loader2 className="animate-spin text-indigo-600" /></div>;
+  if (error) return <div className="h-screen flex items-center justify-center text-red-500">Error: {error}</div>;
 
   const categories = Array.from(new Set(documents.map(doc => doc.category)));
 

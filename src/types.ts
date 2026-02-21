@@ -23,6 +23,8 @@ export interface Lesson {
   title: string;
   youtubeId: string;
   driveLink?: string;
+  materials?: string; // Link to lesson materials (Tài liệu buổi học)
+  exercises?: string; // Link to practice exercises (Bài tập luyện tập)
   documents?: Document[];
   nextLessons?: NextLessonOption[];
 }
@@ -45,10 +47,29 @@ export interface SubCourse {
   thumbnail: string;
 }
 
-export interface CourseDetail {
-  courseId: string;
+export interface Category {
+  id: string;
   title: string;
-  description: string;
-  levels: Level[];
-  subCourses?: SubCourse[];
+  icon: string;
+}
+
+export interface RoadmapStep {
+  month: string;
+  title: string;
+  items: string[];
+  link: string;
+}
+
+export interface RoadmapData {
+  [key: string]: RoadmapStep[];
+}
+
+export interface DocumentItem {
+  id: number;
+  title: string;
+  category: string;
+  type: string;
+  size: string;
+  link: string;
+  date: string;
 }

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { CourseDetail, Level, Lesson } from '../types';
 import { courseService } from '../services/courseService';
-import { Play, FileText, ChevronRight, Loader2, ArrowLeft, Menu, Download, ExternalLink, File } from 'lucide-react';
+import { Play, FileText, ChevronRight, Loader2, ArrowLeft, Menu, Download, ExternalLink, File, PenTool } from 'lucide-react';
 import { AVATAR_URL } from '../constants';
 
 export function CoursePage() {
@@ -240,6 +240,30 @@ function LessonItem({ lesson }: { lesson: Lesson }) {
             >
               <FileText className="w-4 h-4 mr-2" />
               Tài liệu Drive
+            </a>
+          )}
+
+          {lesson.materials && (
+            <a 
+              href={lesson.materials}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary px-4 py-2 text-sm bg-blue-50 text-blue-600 hover:bg-blue-100 border-blue-100"
+            >
+              <FileText className="w-4 h-4 mr-2" />
+              Tài liệu buổi học
+            </a>
+          )}
+
+          {lesson.exercises && (
+            <a 
+              href={lesson.exercises}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-secondary px-4 py-2 text-sm bg-green-50 text-green-600 hover:bg-green-100 border-green-100"
+            >
+              <PenTool className="w-4 h-4 mr-2" />
+              Bài tập luyện tập
             </a>
           )}
         </div>

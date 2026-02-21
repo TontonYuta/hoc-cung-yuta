@@ -14,24 +14,32 @@
               "id": "l1-1",
               "title": "Buổi 1: Tính đơn điệu của hàm số (Lý thuyết & Bài tập cơ bản)",
               "youtubeId": "dQw4w9WgXcQ",
+              "materials": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+              "exercises": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
               "documents": []
             },
             {
               "id": "l1-2",
               "title": "Buổi 2: Bài tập rèn luyện đơn điệu",
               "youtubeId": "dQw4w9WgXcQ",
+              "materials": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+              "exercises": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
               "documents": []
             },
             {
               "id": "l1-3",
               "title": "Buổi 3: Cực trị của hàm số (Quy tắc 1 & 2)",
               "youtubeId": "dQw4w9WgXcQ",
+              "materials": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+              "exercises": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
               "documents": []
             },
             {
               "id": "l1-4",
               "title": "Buổi 4: Bài toán tìm m để hàm số đơn điệu",
               "youtubeId": "dQw4w9WgXcQ",
+              "materials": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+              "exercises": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
               "documents": []
             }
           ]
@@ -40,13 +48,13 @@
           "title": "GTLN - GTNN & Tiệm cận",
           "lessons": [
             {
-              "id": "l1-4",
+              "id": "l1-5",
               "title": "Giá trị lớn nhất, nhỏ nhất trên đoạn [a;b]",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
             },
             {
-              "id": "l1-5",
+              "id": "l1-6",
               "title": "Đường tiệm cận đứng và ngang",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
@@ -57,19 +65,19 @@
           "title": "Khảo sát & Vẽ đồ thị",
           "lessons": [
             {
-              "id": "l1-6",
+              "id": "l1-7",
               "title": "Khảo sát hàm bậc ba & Trùng phương",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
             },
             {
-              "id": "l1-7",
+              "id": "l1-8",
               "title": "Khảo sát hàm phân thức hữu tỉ",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
             },
             {
-              "id": "l1-8",
+              "id": "l1-9",
               "title": "Sự tương giao của đồ thị hàm số",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
