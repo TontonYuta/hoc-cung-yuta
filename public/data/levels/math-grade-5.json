@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-5",
+  "title": "Toán Lớp 5",
+  "description": "Ôn tập phân số, số thập phân và hình học cơ bản.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-5-s1",
+      "title": "Học kì 1",
+      "description": "Phân số, Số thập phân, Các phép tính.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-5-s2",
+      "title": "Học kì 2",
+      "description": "Hình học, Số đo thời gian, Toán chuyển động.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

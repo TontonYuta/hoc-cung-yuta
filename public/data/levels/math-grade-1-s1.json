@@ -1,0 +1,29 @@
+{
+  "courseId": "math-grade-1-s1",
+  "title": "Toán 1 - Học kì 1",
+  "description": "Các số đến 10, Phép cộng trừ trong phạm vi 10.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Chương 1: Các số đến 10",
+      "groups": [
+        {
+          "title": "Lý thuyết",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Các số 1, 2, 3, 4, 5",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Tài liệu học tập",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "courseId": "math-grade-3-s2",
+  "title": "Toán 3 - Học kì 2",
+  "description": "Các số đến 100.000, Diện tích.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Chương 1: Các số đến 10 000",
+      "groups": [
+        {
+          "title": "Lý thuyết",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Các số có bốn chữ số",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Tài liệu học tập",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "courseId": "math-grade-12",
+  "title": "Toán Lớp 12",
+  "description": "Khảo sát hàm số, nguyên hàm, tích phân, số phức.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-12-6plus",
+      "title": "Toán 12 (6+)",
+      "description": "Kiến thức cơ bản, nền tảng cho kỳ thi THPTQG.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-12-7plus",
+      "title": "Toán 12 (7+)",
+      "description": "Luyện tập các dạng bài mức độ vận dụng.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-12-8plus",
+      "title": "Toán 12 (8+)",
+      "description": "Chinh phục các câu hỏi vận dụng cao, 9+.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-hsa",
+      "title": "HSA (ĐGNL ĐHQG HN)",
+      "description": "Luyện thi đánh giá năng lực Đại học Quốc gia Hà Nội.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-tsa",
+      "title": "TSA (ĐGTD ĐHBK HN)",
+      "description": "Luyện thi đánh giá tư duy Đại học Bách Khoa Hà Nội.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

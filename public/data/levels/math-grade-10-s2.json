@@ -1,0 +1,29 @@
+{
+  "courseId": "math-grade-10-s2",
+  "title": "Toán 10 - Học kì 2",
+  "description": "Bất phương trình, Thống kê, Phương pháp tọa độ.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Chương 1: Bất phương trình bậc hai",
+      "groups": [
+        {
+          "title": "Lý thuyết",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Dấu của tam thức bậc hai",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Tài liệu học tập",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

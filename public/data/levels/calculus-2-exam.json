@@ -1,0 +1,29 @@
+{
+  "courseId": "calculus-2-exam",
+  "title": "Giải Tích 2 - Luyện đề",
+  "description": "Tổng hợp đề thi các năm và đề luyện tập.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Đề thi giữa kỳ",
+      "groups": [
+        {
+          "title": "Năm 2023",
+          "lessons": [
+            {
+              "id": "midterm-2023",
+              "title": "Đề thi giữa kỳ 2023 - Đề 1",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Đề bài & Đáp án",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

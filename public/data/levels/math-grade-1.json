@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-1",
+  "title": "Toán Lớp 1",
+  "description": "Đếm số, phép cộng trừ trong phạm vi 10, 100.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-1-s1",
+      "title": "Học kì 1",
+      "description": "Các số đến 10, Phép cộng trừ trong phạm vi 10.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-1-s2",
+      "title": "Học kì 2",
+      "description": "Các số đến 100, Phép cộng trừ trong phạm vi 100.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

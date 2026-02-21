@@ -1,0 +1,282 @@
+{
+  "courseId": "math-grade-12-6plus",
+  "title": "Toán 12 (6+)",
+  "description": "Kiến thức cơ bản, nền tảng cho kỳ thi THPTQG. Mục tiêu: Nắm chắc 7 điểm đầu tiên.",
+  "levels": [
+    {
+      "id": "sem-1-analysis",
+      "title": "Chương 1: Ứng dụng đạo hàm & Khảo sát hàm số",
+      "groups": [
+        {
+          "title": "Tính đơn điệu & Cực trị",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Tính đơn điệu của hàm số (Lý thuyết & Bài tập)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-2",
+              "title": "Cực trị của hàm số (Quy tắc 1 & 2)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-3",
+              "title": "Bài toán tìm m để hàm số đơn điệu (Cơ bản)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "GTLN - GTNN & Tiệm cận",
+          "lessons": [
+            {
+              "id": "l1-4",
+              "title": "Giá trị lớn nhất, nhỏ nhất trên đoạn [a;b]",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-5",
+              "title": "Đường tiệm cận đứng và ngang",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Khảo sát & Vẽ đồ thị",
+          "lessons": [
+            {
+              "id": "l1-6",
+              "title": "Khảo sát hàm bậc ba & Trùng phương",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-7",
+              "title": "Khảo sát hàm phân thức hữu tỉ",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-8",
+              "title": "Sự tương giao của đồ thị hàm số",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-1-geometry",
+      "title": "Chương 2: Vectơ & Hệ tọa độ Oxyz",
+      "groups": [
+        {
+          "title": "Vectơ trong không gian",
+          "lessons": [
+            {
+              "id": "l2-1",
+              "title": "Các phép toán vectơ trong không gian",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l2-2",
+              "title": "Hệ trục tọa độ Oxyz & Tọa độ điểm",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Các phép toán Oxyz",
+          "lessons": [
+            {
+              "id": "l2-3",
+              "title": "Tích vô hướng & Ứng dụng (Góc, Độ dài)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l2-4",
+              "title": "Phương trình mặt cầu (Dạng cơ bản)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-2-calculus",
+      "title": "Chương 3: Nguyên hàm & Tích phân",
+      "groups": [
+        {
+          "title": "Nguyên hàm",
+          "lessons": [
+            {
+              "id": "l3-1",
+              "title": "Bảng nguyên hàm cơ bản & Tính chất",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l3-2",
+              "title": "Phương pháp đổi biến số (Cơ bản)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Tích phân & Ứng dụng",
+          "lessons": [
+            {
+              "id": "l3-3",
+              "title": "Định nghĩa & Tính chất tích phân",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l3-4",
+              "title": "Ứng dụng tính diện tích hình phẳng",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l3-5",
+              "title": "Ứng dụng tính thể tích khối tròn xoay",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-2-geometry",
+      "title": "Chương 4: Phương trình Mặt phẳng & Đường thẳng",
+      "groups": [
+        {
+          "title": "Mặt phẳng",
+          "lessons": [
+            {
+              "id": "l4-1",
+              "title": "Vectơ pháp tuyến & PT tổng quát",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l4-2",
+              "title": "Các dạng viết PT mặt phẳng cơ bản",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Đường thẳng",
+          "lessons": [
+            {
+              "id": "l4-3",
+              "title": "Vectơ chỉ phương & PT tham số",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l4-4",
+              "title": "Vị trí tương đối (Góc, Khoảng cách)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prob-stat",
+      "title": "Chương 5: Xác suất & Thống kê",
+      "groups": [
+        {
+          "title": "Thống kê mô tả",
+          "lessons": [
+            {
+              "id": "l5-1",
+              "title": "Khoảng biến thiên & Tứ phân vị",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l5-2",
+              "title": "Phương sai & Độ lệch chuẩn (Số liệu ghép nhóm)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Xác suất",
+          "lessons": [
+            {
+              "id": "l5-3",
+              "title": "Xác suất có điều kiện & Công thức nhân",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final-review",
+      "title": "Tổng ôn & Luyện đề Tốt nghiệp",
+      "groups": [
+        {
+          "title": "Tổng ôn kiến thức",
+          "lessons": [
+            {
+              "id": "l6-1",
+              "title": "Tổng ôn Hàm số & Đồ thị",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l6-2",
+              "title": "Tổng ôn Mũ - Logarit (Cơ bản)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l6-3",
+              "title": "Tổng ôn Hình học Oxyz",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Luyện đề thực chiến",
+          "lessons": [
+            {
+              "id": "l6-4",
+              "title": "Giải đề tham khảo Bộ GD&ĐT (Mức 6-7đ)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l6-5",
+              "title": "Luyện đề tốt nghiệp các năm (Nhận biết - Thông hiểu)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

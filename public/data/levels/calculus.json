@@ -1,0 +1,23 @@
+{
+  "courseId": "calculus",
+  "title": "Giải Tích Đại Học",
+  "description": "Giới hạn, đạo hàm, tích phân và chuỗi số.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Giới hạn dãy số",
+      "groups": [
+        {
+          "title": "Lý thuyết",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Định nghĩa giới hạn",
+              "youtubeId": "dQw4w9WgXcQ"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

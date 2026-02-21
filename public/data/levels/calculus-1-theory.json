@@ -1,0 +1,29 @@
+{
+  "courseId": "calculus-1-theory",
+  "title": "Giải Tích 1 - Lý thuyết",
+  "description": "Hệ thống kiến thức và bài tập theo chương trình.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Chương 1: Giới hạn của dãy số",
+      "groups": [
+        {
+          "title": "Lý thuyết",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Định nghĩa giới hạn",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Slide bài giảng",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

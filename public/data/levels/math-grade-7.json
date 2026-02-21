@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-7",
+  "title": "Toán Lớp 7",
+  "description": "Số hữu tỉ, số thực, thống kê, hình học phẳng.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-7-s1",
+      "title": "Học kì 1",
+      "description": "Số hữu tỉ, Số thực, Hàm số, Tam giác.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-7-s2",
+      "title": "Học kì 2",
+      "description": "Thống kê, Biểu thức đại số, Quan hệ trong tam giác.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

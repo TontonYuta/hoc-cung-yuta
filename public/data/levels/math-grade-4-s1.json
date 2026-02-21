@@ -1,0 +1,29 @@
+{
+  "courseId": "math-grade-4-s1",
+  "title": "Toán 4 - Học kì 1",
+  "description": "Số tự nhiên, Bốn phép tính, Hình học.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Chương 1: Số tự nhiên",
+      "groups": [
+        {
+          "title": "Lý thuyết",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Ôn tập các số đến 100 000",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Tài liệu học tập",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

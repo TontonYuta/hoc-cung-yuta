@@ -1,0 +1,121 @@
+{
+  "courseId": "math-grade-12-8plus",
+  "title": "Toán 12 (8+)",
+  "description": "Chinh phục các câu hỏi vận dụng cao, 9+.",
+  "levels": [
+    {
+      "id": "sem-1",
+      "title": "Học kỳ 1: Vận dụng cao Hàm số & Hình học",
+      "groups": [
+        {
+          "title": "Hàm số VDC",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Bài toán tối ưu hóa thực tế (Hàm số)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-2",
+              "title": "Cực trị hàm hợp, hàm ẩn",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Oxyz VDC",
+          "lessons": [
+            {
+              "id": "l1-3",
+              "title": "Biểu thức tọa độ & Bài toán Min-Max Oxyz",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-2",
+      "title": "Học kỳ 2: Chinh phục Tích phân & Xác suất",
+      "groups": [
+        {
+          "title": "Tích phân VDC",
+          "lessons": [
+            {
+              "id": "l2-1",
+              "title": "Ứng dụng Tích phân (Vận tốc, Dòng điện)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l2-2",
+              "title": "Tích phân hàm ẩn nâng cao",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Xác suất VDC",
+          "lessons": [
+            {
+              "id": "l2-3",
+              "title": "Bài toán Xác suất có điều kiện nâng cao",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Tổng ôn chuyên sâu",
+      "groups": [
+        {
+          "title": "Hệ thống hóa",
+          "lessons": [
+            {
+              "id": "l3-1",
+              "title": "Hệ thống hóa toàn bộ kiến thức 12",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l3-2",
+              "title": "Luyện các dạng bài vận dụng cao",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "title": "Thực chiến phòng thi",
+      "groups": [
+        {
+          "title": "Mock Tests",
+          "lessons": [
+            {
+              "id": "l4-1",
+              "title": "Luyện đề thử sức (Mock tests)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l4-2",
+              "title": "Chiến thuật phân bổ thời gian",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

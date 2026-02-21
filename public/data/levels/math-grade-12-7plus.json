@@ -1,0 +1,133 @@
+{
+  "courseId": "math-grade-12-7plus",
+  "title": "Toán 12 (7+)",
+  "description": "Luyện tập các dạng bài mức độ vận dụng.",
+  "levels": [
+    {
+      "id": "sem-1",
+      "title": "Học kỳ 1: Làm chủ Hàm số & Oxyz",
+      "groups": [
+        {
+          "title": "Ứng dụng Đạo hàm",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Ứng dụng đạo hàm (GTLN, GTNN thực tế)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-2",
+              "title": "Khảo sát hàm số nâng cao",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Vectơ & Tích vô hướng",
+          "lessons": [
+            {
+              "id": "l1-3",
+              "title": "Tọa độ vectơ & Tích vô hướng",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-4",
+              "title": "Góc trong không gian",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-2",
+      "title": "Học kỳ 2: Tích phân & Hình Oxyz nâng cao",
+      "groups": [
+        {
+          "title": "Kỹ thuật Tích phân",
+          "lessons": [
+            {
+              "id": "l2-1",
+              "title": "Tích phân đổi biến",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l2-2",
+              "title": "Tích phân từng phần",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        },
+        {
+          "title": "Mặt cầu & Vị trí tương đối",
+          "lessons": [
+            {
+              "id": "l2-3",
+              "title": "Phương trình mặt cầu",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l2-4",
+              "title": "Vị trí tương đối trong không gian",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sem-2-end",
+      "title": "Cuối kỳ 2: Xác suất thống kê ứng dụng",
+      "groups": [
+        {
+          "title": "Xác suất & Thống kê",
+          "lessons": [
+            {
+              "id": "l3-1",
+              "title": "Công thức xác suất toàn phần & Bayes",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l3-2",
+              "title": "Thống kê mẫu số liệu ghép nhóm",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Luyện đề Đại học",
+      "groups": [
+        {
+          "title": "Luyện đề",
+          "lessons": [
+            {
+              "id": "l4-1",
+              "title": "Giải đề minh họa & Đề các năm",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l4-2",
+              "title": "Kỹ năng làm bài trắc nghiệm nhanh",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
