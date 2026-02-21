@@ -244,6 +244,29 @@ function LessonItem({ lesson }: { lesson: Lesson }) {
           )}
         </div>
 
+        {/* Next Lesson Options */}
+        {lesson.nextLessons && lesson.nextLessons.length > 0 && (
+          <div className="mt-4 pt-4 border-t border-slate-100">
+            <h5 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+              <ChevronRight className="w-3 h-3" />
+              Bài học tiếp theo
+            </h5>
+            <div className="flex flex-col gap-2">
+              {lesson.nextLessons.map((option) => (
+                <div key={option.id} className="flex items-center justify-between p-3 rounded-lg bg-indigo-50 border border-indigo-100">
+                  <div>
+                    <span className="text-sm font-bold text-indigo-900 block">{option.title}</span>
+                    {option.description && <span className="text-xs text-indigo-600">{option.description}</span>}
+                  </div>
+                  <span className="text-xs font-medium text-white bg-indigo-600 px-2 py-1 rounded">
+                    Tiếp theo
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Documents Section */}
         {lesson.documents && lesson.documents.length > 0 && (
           <div className="mt-4 pt-4 border-t border-slate-100">

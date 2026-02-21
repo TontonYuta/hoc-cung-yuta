@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 import { Course } from '../types';
 import { courseService } from '../services/courseService';
 import { CourseCard } from '../components/CourseCard';
-import { BookOpen, GraduationCap, Loader2, Code, Calculator, School, Target, PenTool, Trophy, CheckCircle2 } from 'lucide-react';
+import { BookOpen, GraduationCap, Loader2, Code, Calculator, School, Target, PenTool, Trophy, CheckCircle2, Menu, X } from 'lucide-react';
 import { AVATAR_URL } from '../constants';
 
 export function HomePage() {
   const [courses, setCourses] = useState<Course[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     courseService.getAllCourses()
@@ -22,6 +23,7 @@ export function HomePage() {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
+      setMobileMenuOpen(false);
     }
   };
 
@@ -95,12 +97,52 @@ export function HomePage() {
             </div>
             <span className="text-xl font-bold text-slate-900 tracking-tight">Tontons Yuta</span>
           </div>
+          
+          {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-6">
             <button onClick={() => scrollToSection('courses')} className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Khóa học</button>
             <Link to="/roadmap/math-12" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Lộ trình Toán 12</Link>
             <Link to="/documents" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Tài liệu</Link>
           </div>
+
+          {/* Mobile Menu Button */}
+          <div className="md:hidden">
+            <button 
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="p-2 text-slate-600 hover:bg-slate-100 rounded-lg transition-colors"
+            >
+              {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
+
+        {/* Mobile Menu Dropdown */}
+        {mobileMenuOpen && (
+          <div className="md:hidden border-t border-slate-200 bg-white absolute w-full left-0 shadow-lg animate-in slide-in-from-top-5 duration-200">
+            <div className="px-4 py-4 space-y-3 flex flex-col">
+              <button 
+                onClick={() => scrollToSection('courses')} 
+                className="text-left px-4 py-3 rounded-lg text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors"
+              >
+                Khóa học
+              </button>
+              <Link 
+                to="/roadmap/math-12" 
+                className="px-4 py-3 rounded-lg text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Lộ trình Toán 12
+              </Link>
+              <Link 
+                to="/documents" 
+                className="px-4 py-3 rounded-lg text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Tài liệu
+              </Link>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Hero Section */}

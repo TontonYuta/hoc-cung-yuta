@@ -12,19 +12,25 @@
           "lessons": [
             {
               "id": "l1-1",
-              "title": "Tính đơn điệu của hàm số (Lý thuyết & Bài tập)",
+              "title": "Buổi 1: Tính đơn điệu của hàm số (Lý thuyết & Bài tập cơ bản)",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
             },
             {
               "id": "l1-2",
-              "title": "Cực trị của hàm số (Quy tắc 1 & 2)",
+              "title": "Buổi 2: Bài tập rèn luyện đơn điệu",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
             },
             {
               "id": "l1-3",
-              "title": "Bài toán tìm m để hàm số đơn điệu (Cơ bản)",
+              "title": "Buổi 3: Cực trị của hàm số (Quy tắc 1 & 2)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-4",
+              "title": "Buổi 4: Bài toán tìm m để hàm số đơn điệu",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
             }

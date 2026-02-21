@@ -18,7 +18,13 @@
             },
             {
               "id": "l1-2",
-              "title": "Cực trị hàm hợp, hàm ẩn",
+              "title": "Cực trị hàm hợp, hàm ẩn (Vận dụng cao)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": []
+            },
+            {
+              "id": "l1-3",
+              "title": "Đơn điệu hàm hợp & hàm trị tuyệt đối",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []
             }
@@ -28,7 +34,7 @@
           "title": "Oxyz VDC",
           "lessons": [
             {
-              "id": "l1-3",
+              "id": "l1-4",
               "title": "Biểu thức tọa độ & Bài toán Min-Max Oxyz",
               "youtubeId": "dQw4w9WgXcQ",
               "documents": []

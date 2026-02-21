@@ -14,7 +14,7 @@ export function DocumentsPage() {
       category: "Toán 12",
       type: "PDF",
       size: "2.5 MB",
-      link: "https://docs.google.com/document/d/1yv-yv-yv-yv/edit?usp=sharing", // Placeholder link
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
       date: "20/02/2026"
     },
     {
@@ -23,44 +23,98 @@ export function DocumentsPage() {
       category: "Luyện đề",
       type: "PDF",
       size: "1.8 MB",
-      link: "#",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
       date: "15/02/2026"
     },
     {
       id: 3,
-      title: "Chuyên đề Hàm số và Đồ thị",
+      title: "Chuyên đề Hàm số và Đồ thị (Vận dụng cao)",
       category: "Toán 12",
       type: "PDF",
       size: "3.2 MB",
-      link: "#",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
       date: "10/02/2026"
     },
     {
       id: 4,
-      title: "Bài tập Hình học không gian Oxyz",
+      title: "Bài tập Hình học không gian Oxyz - Từ cơ bản đến nâng cao",
       category: "Toán 12",
       type: "PDF",
       size: "4.1 MB",
-      link: "#",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
       date: "05/02/2026"
     },
     {
       id: 5,
-      title: "Công thức lượng giác lớp 11 ôn tập",
+      title: "Tổng ôn Công thức Lượng giác lớp 11",
       category: "Toán 11",
       type: "PDF",
       size: "1.5 MB",
-      link: "#",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
       date: "01/02/2026"
     },
     {
       id: 6,
-      title: "500 bài tập trắc nghiệm Mũ - Logarit",
+      title: "500 bài tập trắc nghiệm Mũ - Logarit (Có đáp án)",
       category: "Toán 12",
       type: "PDF",
       size: "5.6 MB",
-      link: "#",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
       date: "25/01/2026"
+    },
+    {
+      id: 7,
+      title: "Đề cương ôn tập học kỳ 1 Toán 10",
+      category: "Toán 10",
+      type: "PDF",
+      size: "2.1 MB",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+      date: "20/01/2026"
+    },
+    {
+      id: 8,
+      title: "Tuyển tập các bài toán Xác suất - Thống kê hay và khó",
+      category: "Toán 11",
+      type: "PDF",
+      size: "3.5 MB",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+      date: "15/01/2026"
+    },
+    {
+      id: 9,
+      title: "Bộ đề thi thử HSA (Đánh giá năng lực) - Phần Tư duy định lượng",
+      category: "Luyện đề",
+      type: "PDF",
+      size: "4.8 MB",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+      date: "10/01/2026"
+    },
+    {
+      id: 10,
+      title: "Chuyên đề Vectơ trong không gian (Lớp 11 & 12)",
+      category: "Toán 11",
+      type: "PDF",
+      size: "2.8 MB",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+      date: "05/01/2026"
+    },
+    {
+      id: 11,
+      title: "Tổng hợp kiến thức Đại số 10 - Mệnh đề & Tập hợp",
+      category: "Toán 10",
+      type: "PDF",
+      size: "1.2 MB",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+      date: "01/01/2026"
+    },
+    {
+      id: 12,
+      title: "20 Đề thi thử Toán THPTQG chọn lọc từ các trường Chuyên",
+      category: "Luyện đề",
+      type: "ZIP",
+      size: "15.4 MB",
+      link: "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
+      date: "28/12/2025"
     }
   ];
 
@@ -89,12 +143,12 @@ export function DocumentsPage() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         {/* Search and Filter */}
-        <div className="mb-10 space-y-6">
-          <div className="max-w-2xl mx-auto text-center mb-10">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Tài liệu chọn lọc</h2>
-            <p className="text-slate-600">
+        <div className="mb-8 sm:mb-10 space-y-6">
+          <div className="max-w-2xl mx-auto text-center mb-8 sm:mb-10">
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3 sm:mb-4">Tài liệu chọn lọc</h2>
+            <p className="text-sm sm:text-base text-slate-600">
               Kho tàng kiến thức được tổng hợp và biên soạn kỹ lưỡng, giúp bạn ôn tập hiệu quả nhất.
             </p>
           </div>
@@ -107,14 +161,14 @@ export function DocumentsPage() {
                 placeholder="Tìm kiếm tài liệu..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full pl-10 pr-4 py-2 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+                className="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-sm sm:text-base"
               />
             </div>
             
-            <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto no-scrollbar">
+            <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0 w-full md:w-auto no-scrollbar scroll-smooth">
               <button
                 onClick={() => setSelectedCategory(null)}
-                className={`px-4 py-2 rounded-xl text-sm font-medium whitespace-nowrap transition-all cursor-pointer ${
+                className={`px-4 py-2.5 rounded-xl text-sm font-medium whitespace-nowrap transition-all cursor-pointer shrink-0 ${
                   selectedCategory === null
                     ? 'bg-indigo-600 text-white shadow-md shadow-indigo-200'
                     : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
@@ -126,7 +180,7 @@ export function DocumentsPage() {
                 <button
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
-                  className={`px-4 py-2 rounded-xl text-sm font-medium whitespace-nowrap transition-all cursor-pointer ${
+                  className={`px-4 py-2.5 rounded-xl text-sm font-medium whitespace-nowrap transition-all cursor-pointer shrink-0 ${
                     selectedCategory === cat
                       ? 'bg-indigo-600 text-white shadow-md shadow-indigo-200'
                       : 'bg-slate-100 text-slate-600 hover:bg-slate-200'

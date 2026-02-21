@@ -12,12 +12,19 @@ export interface Document {
   url: string;
 }
 
+export interface NextLessonOption {
+  id: string;
+  title: string;
+  description?: string;
+}
+
 export interface Lesson {
   id: string;
   title: string;
   youtubeId: string;
   driveLink?: string;
   documents?: Document[];
+  nextLessons?: NextLessonOption[];
 }
 
 export interface Group {
