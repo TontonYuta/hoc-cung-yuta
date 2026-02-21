@@ -5,6 +5,7 @@ import { Math12RoadmapPage } from './pages/Math12RoadmapPage';
 import { DocumentsPage } from './pages/DocumentsPage';
 import { CVPage } from './pages/CVPage';
 import { EntertainmentPage } from './pages/EntertainmentPage';
+import { LearningSitesPage } from './pages/LearningSitesPage';
 import { FloatingChat } from './components/FloatingChat';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/roadmap/math-12" element={<Math12RoadmapPage />} />
         <Route path="/documents" element={<DocumentsPage />} />
         <Route path="/entertainment" element={<EntertainmentPage />} />
+        <Route path="/learning-sites" element={<LearningSitesPage />} />
         <Route path="/about-me" element={<CVPage />} />
       </Routes>
       <FloatingChat />

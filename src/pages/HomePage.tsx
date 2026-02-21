@@ -113,6 +113,7 @@ export function HomePage() {
             <button onClick={() => scrollToSection('courses')} className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Khóa học</button>
             <Link to="/roadmap/math-12" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Lộ trình Toán 12</Link>
             <Link to="/documents" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Tài liệu</Link>
+            <Link to="/learning-sites" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Web học tập</Link>
             <Link to="/entertainment" className="text-sm font-medium text-slate-600 hover:text-indigo-600 transition-colors cursor-pointer">Giải trí</Link>
           </div>
 
@@ -150,6 +151,13 @@ export function HomePage() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Tài liệu
+              </Link>
+              <Link 
+                to="/learning-sites" 
+                className="px-4 py-3 rounded-lg text-base font-medium text-slate-600 hover:bg-slate-50 hover:text-indigo-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Web học tập
               </Link>
               <Link 
                 to="/entertainment" 
