@@ -1,0 +1,51 @@
+{
+  "courseId": "prob-stats-theory",
+  "title": "Xác suất Thống kê - Lý thuyết",
+  "description": "Hệ thống kiến thức từ xác suất cơ bản đến thống kê ứng dụng.",
+  "levels": [
+    {
+      "id": "chapter-1",
+      "title": "Chương 1: Biến cố và Xác suất",
+      "groups": [
+        {
+          "title": "Lý thuyết trọng tâm",
+          "lessons": [
+            {
+              "id": "ps-t1-1",
+              "title": "Công thức xác suất đầy đủ và Bayes",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Slide bài giảng Chương 1",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "title": "Chương 4: Ước lượng và Kiểm định",
+      "groups": [
+        {
+          "title": "Thống kê suy diễn",
+          "lessons": [
+            {
+              "id": "ps-t4-1",
+              "title": "Kiểm định giả thuyết về kỳ vọng",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Bảng tra các phân phối chuẩn, Student",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

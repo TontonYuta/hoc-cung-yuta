@@ -1,0 +1,47 @@
+{
+  "courseId": "prob-stats-casio",
+  "title": "Thủ thuật Casio & Excel",
+  "description": "Tối ưu hóa thời gian làm bài bằng công cụ hỗ trợ.",
+  "levels": [
+    {
+      "id": "casio-580",
+      "title": "Kỹ thuật trên Casio 580VN X",
+      "groups": [
+        {
+          "title": "Thống kê 1 biến & 2 biến",
+          "lessons": [
+            {
+              "id": "c1-l1",
+              "title": "Tính nhanh Trung bình, Độ lệch chuẩn, Phương sai",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [{"title": "Quy trình bấm máy", "url": "https://drive.google.com/..."}]
+            },
+            {
+              "id": "c1-l2",
+              "title": "Tìm hệ số hồi quy tuyến tính Y = aX + b",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [{"title": "Lưu ý về thứ tự biến", "url": "https://drive.google.com/..."}]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "excel-stats",
+      "title": "Ứng dụng Excel (Cho bài tập lớn)",
+      "groups": [
+        {
+          "title": "Data Analysis Toolpak",
+          "lessons": [
+            {
+              "id": "ex-l1",
+              "title": "Sử dụng hàm Descriptive Statistics",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [{"title": "File thực hành mẫu", "url": "https://drive.google.com/..."}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

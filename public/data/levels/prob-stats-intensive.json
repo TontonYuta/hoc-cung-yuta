@@ -1,0 +1,47 @@
+{
+  "courseId": "prob-stats-intensive",
+  "title": "Chuyên đề A+ (Nâng cao)",
+  "description": "Đi sâu vào lý thuyết xác suất hiện đại và các mô hình thống kê phức tạp.",
+  "levels": [
+    {
+      "id": "advanced-theory",
+      "title": "Lý thuyết xác suất chuyên sâu",
+      "groups": [
+        {
+          "title": "Hàm đặc trưng & Định lý giới hạn",
+          "lessons": [
+            {
+              "id": "adv-l1",
+              "title": "Hàm đặc trưng của biến ngẫu nhiên",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [{"title": "Chứng minh định lý giới hạn trung tâm", "url": "https://drive.google.com/..."}]
+            },
+            {
+              "id": "adv-l2",
+              "title": "Các loại hội tụ của biến ngẫu nhiên",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [{"title": "Bài tập hội tụ hầu chắc chắn", "url": "https://drive.google.com/..."}]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-stats",
+      "title": "Thống kê suy diễn nâng cao",
+      "groups": [
+        {
+          "title": "Kiểm định phi tham số",
+          "lessons": [
+            {
+              "id": "adv-l3",
+              "title": "Kiểm định Khi bình phương (Chi-squared test)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [{"title": "Bảng tra phân phối Chi-square", "url": "https://drive.google.com/..."}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

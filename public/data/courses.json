@@ -99,7 +99,7 @@
     "id": "calculus-1",
     "title": "Giải Tích 1",
     "description": "Giới hạn, đạo hàm, tích phân hàm một biến.",
-    "thumbnail": "https://images.nxbbachkhoa.vn/Picture/2024/8/21/image-20240821142746506.jpg",
+    "thumbnail": "https://tailieuhust.com/wp-content/uploads/2021/09/GIAI-TICH-1-TAI-LIEU-e1725826083534.jpg",
     "category": "university",
     "instructor": "Trần Huy Hoàng"
   },
@@ -123,6 +123,14 @@
     "id": "discrete-math",
     "title": "Toán Rời Rạc",
     "description": "Cấu trúc rời rạc, logic, tập hợp và đồ thị.",
+    "thumbnail": "https://titv.vn/wp-content/uploads/2023/01/Toan-roi-rac-1-870x440.png",
+    "category": "university",
+    "instructor": "Trần Huy Hoàng"
+  },
+  {
+    "id": "prob-stats-math",
+    "title": "Xác suất thống kê",
+    "description": "Xác suất cổ điển.",
     "thumbnail": "https://titv.vn/wp-content/uploads/2023/01/Toan-roi-rac-1-870x440.png",
     "category": "university",
     "instructor": "Trần Huy Hoàng"

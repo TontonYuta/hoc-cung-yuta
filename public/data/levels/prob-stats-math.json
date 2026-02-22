@@ -1,0 +1,38 @@
+{
+  "courseId": "prob-stats-math",
+  "title": "Xác suất Thống kê",
+  "description": "Hệ thống kiến thức từ biến ngẫu nhiên, quy luật phân phối đến kiểm định giả thuyết và hồi quy.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "prob-stats-theory",
+      "title": "Xác suất Thống kê - Lý thuyết",
+      "description": "Học trọn bộ kiến thức nền tảng: Biến ngẫu nhiên, Phân phối chuẩn, Ước lượng và Kiểm định.",
+      "thumbnail": "https://png.pngtree.com/thumb_back/fh260/background/20220701/pngtree-wooden-backdrop-with-hard-stone-3d-number-6-rendered-in-font-character-photo-image_32238058.jpg"
+    },
+    {
+      "id": "prob-stats-exam",
+      "title": "Xác suất Thống kê - Luyện đề",
+      "description": "Tổng hợp đề thi Giữa kỳ và Cuối kỳ từ các trường đại học top đầu qua các năm.",
+      "thumbnail": "https://tongkhosim.com/public/photos/1/images/disk/6db0ed49-9ccb-478a-9297-6b536708a163.jpg"
+    },
+    {
+      "id": "prob-stats-casio",
+      "title": "Thủ thuật Casio & Excel",
+      "description": "Kỹ thuật bấm máy tính giải nhanh xác suất và sử dụng Excel trong phân tích thống kê.",
+      "thumbnail": "https://pic.pikbest.com/01/02/55/14Z888piCuXk.jpg-0.jpg!bew340"
+    },
+    {
+      "id": "prob-stats-data-science",
+      "title": "Xác suất cho Data Science",
+      "description": "Ứng dụng xác suất vào học máy (Machine Learning) và xử lý dữ liệu thực tế.",
+      "thumbnail": "https://id.hsa.edu.vn/hsa.jpg"
+    },
+    {
+      "id": "prob-stats-intensive",
+      "title": "Chuyên đề A+ (Nâng cao)",
+      "description": "Chinh phục các bài toán hàm đặc trưng, hội tụ yếu và thống kê phi tham số.",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh8BT0Rrb0xsq3GADeLdClvMninTl9AR50MA&s"
+    }
+  ]
+}

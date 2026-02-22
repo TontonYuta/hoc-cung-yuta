@@ -1,0 +1,33 @@
+{
+  "courseId": "prob-stats-exam",
+  "title": "Xác suất Thống kê - Luyện đề",
+  "description": "Tổng hợp đề thi cuối kỳ và lời giải chi tiết qua các năm.",
+  "levels": [
+    {
+      "id": "final-exam",
+      "title": "Đề thi Cuối kỳ",
+      "groups": [
+        {
+          "title": "Học kỳ 2023.1",
+          "lessons": [
+            {
+              "id": "final-20231",
+              "title": "Giải chi tiết đề cuối kỳ 2023.1",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Đề bài PDF",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                },
+                {
+                  "title": "Đáp án chi tiết",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
