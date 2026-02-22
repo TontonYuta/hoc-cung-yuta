@@ -4,10 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Học Toán cùng Yuta</title>
+    <link rel="icon" id="dynamic-favicon" type="image/png" />
   </head>
   <body>
     <div id="root"></div>
+    
+    <script>
+      // Hàm tự động bo tròn ảnh và đặt làm Favicon
+      const createRoundedFavicon = (url) => {
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        const img = new Image();
+
+        img.crossOrigin = "Anonymous"; // Tránh lỗi bảo mật khi lấy ảnh từ Tenor
+        img.onload = function () {
+          canvas.width = 64;
+          canvas.height = 64;
+
+          // Vẽ hình tròn làm khuôn
+          ctx.beginPath();
+          ctx.arc(32, 32, 32, 0, Math.PI * 2);
+          ctx.closePath();
+          ctx.clip();
+
+          // Vẽ ảnh chú mèo vào trong khuôn tròn đó
+          ctx.drawImage(img, 0, 0, 64, 64);
+
+          // Cập nhật lại thẻ link favicon
+          document.getElementById('dynamic-favicon').href = canvas.toDataURL('image/png');
+        };
+        img.src = url;
+      };
+
+      // Gọi hàm với link ảnh Yuta của bạn
+      createRoundedFavicon('https://media.tenor.com/EQKVF5LHLlYAAAAe/tonton-friends-yuta.png');
+    </script>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
