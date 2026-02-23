@@ -11,16 +11,24 @@
           "title": "Tính đơn điệu & Cực trị",
           "lessons": [
             {
+              "id": "l1-0",
+              "title": "Ôn tập đạo hàm",
+              "youtubeId": "SVnPfg097w0",
+              "materials": "https://drive.google.com/file/d/19CQ7AsMca7AlKtZrSu_odjvx8xVi5r5i/view?usp=sharing",
+              "exercises": "https://drive.google.com/file/d/1uvnxJfEVQmW81oou_u1u-Jh4tIPc5sWJ/view?usp=sharing",
+              "documents": []
+            },
+            {
               "id": "l1-1",
-              "title": "Buổi 1: Tính đơn điệu của hàm số (Lý thuyết & Bài tập cơ bản)",
+              "title": "Buổi 1: Tính đơn điệu của hàm số ",
               "youtubeId": "dQw4w9WgXcQ",
-              "materials": "https://drive.google.com/file/d/10jAzpXrJdhp2S6FEQ-pJKyGXZJrysqPW/view?usp=sharing",
-              "exercises": "https://drive.google.com/file/d/1GgN9Uh1B1QQ0J-jQ77--7tCMyBp60t9N/view?usp=sharing",
+              "materials": "https://drive.google.com/file/d/1AGpO0SGVe1zOdyqPTpHeqFuEBVP81O5R/view?usp=sharing",
+              "exercises": "https://drive.google.com/file/d/1GoTjxVCJyzlUaGv5NNyX6nbc-HlGt46n/view?usp=sharing",
               "documents": []
             },
             {
               "id": "l1-2",
-              "title": "Buổi 2: Bài tập rèn luyện đơn điệu",
+              "title": "Buổi 2: Cực trị của hàm số",
               "youtubeId": "dQw4w9WgXcQ",
               "materials": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
               "exercises": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
@@ -28,15 +36,7 @@
             },
             {
               "id": "l1-3",
-              "title": "Buổi 3: Cực trị của hàm số (Quy tắc 1 & 2)",
-              "youtubeId": "dQw4w9WgXcQ",
-              "materials": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-              "exercises": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
-              "documents": []
-            },
-            {
-              "id": "l1-4",
-              "title": "Buổi 4: Bài toán tìm m để hàm số đơn điệu",
+              "title": "Buổi 3: Bài toán chứa tham số m",
               "youtubeId": "dQw4w9WgXcQ",
               "materials": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
               "exercises": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing",
