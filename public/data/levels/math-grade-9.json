@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-9",
+  "title": "Toán Lớp 9",
+  "description": "Căn bậc hai, hệ phương trình và hình học đường tròn.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-9-s1",
+      "title": "Học kì 1",
+      "description": "Căn bậc hai, Hàm số bậc nhất, Hệ thức lượng.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-9-s2",
+      "title": "Học kì 2",
+      "description": "Hệ phương trình, Hàm số y=ax^2, Đường tròn.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

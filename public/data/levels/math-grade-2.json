@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-2",
+  "title": "Toán Lớp 2",
+  "description": "Phép cộng trừ có nhớ, bảng cửu chương, hình học.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-2-s1",
+      "title": "Học kì 1",
+      "description": "Phép cộng trừ có nhớ, Hình học phẳng.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-2-s2",
+      "title": "Học kì 2",
+      "description": "Phép nhân chia, Các số đến 1000.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

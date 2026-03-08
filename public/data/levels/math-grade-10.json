@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-10",
+  "title": "Toán Lớp 10",
+  "description": "Mệnh đề, tập hợp, vector, hàm số bậc hai.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-10-s1",
+      "title": "Học kì 1",
+      "description": "Mệnh đề, Tập hợp, Hàm số, Vector.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-10-s2",
+      "title": "Học kì 2",
+      "description": "Bất phương trình, Thống kê, Phương pháp tọa độ.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

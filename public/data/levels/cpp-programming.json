@@ -1,0 +1,20 @@
+{
+  "courseId": "cpp-programming",
+  "title": "Tin học đại cương (C++)",
+  "description": "Lập trình cơ bản với C++, thuật toán và cấu trúc dữ liệu.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "cpp-programming-theory",
+      "title": "Lý thuyết & Bài tập",
+      "description": "Hệ thống kiến thức và bài tập theo chương trình.",
+      "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&q=80"
+    },
+    {
+      "id": "cpp-programming-exam",
+      "title": "Luyện đề thi",
+      "description": "Tổng hợp đề thi các năm và đề luyện tập.",
+      "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&q=80"
+    }
+  ]
+}

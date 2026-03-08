@@ -1,0 +1,29 @@
+{
+  "courseId": "math-grade-6-s1",
+  "title": "Toán 6 - Học kì 1",
+  "description": "Số tự nhiên, Số nguyên, Hình học trực quan.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Chương 1: Ôn tập và bổ sung về số tự nhiên",
+      "groups": [
+        {
+          "title": "Lý thuyết",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Tập hợp. Phần tử của tập hợp",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Tài liệu học tập",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

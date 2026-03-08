@@ -1,0 +1,7 @@
+[
+  { "id": "high_school", "title": "Toán THPT", "icon": "GraduationCap" },
+  { "id": "middle_school", "title": "Toán THCS", "icon": "Calculator" },
+  { "id": "primary", "title": "Toán Tiểu Học", "icon": "School" },
+  { "id": "university", "title": "Toán Đại Học", "icon": "BookOpen" },
+  { "id": "informatics", "title": "Tin Học Đại Cương", "icon": "Code" }
+]

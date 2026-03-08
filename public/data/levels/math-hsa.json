@@ -1,0 +1,29 @@
+{
+  "courseId": "math-hsa",
+  "title": "HSA (ĐGNL ĐHQG HN)",
+  "description": "Luyện thi đánh giá năng lực Đại học Quốc gia Hà Nội.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Phần 1: Tư duy định lượng",
+      "groups": [
+        {
+          "title": "Đại số",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Hệ phương trình & Bất phương trình",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Đề luyện tập số 1",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

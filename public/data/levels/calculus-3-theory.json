@@ -1,0 +1,29 @@
+{
+  "courseId": "calculus-3-theory",
+  "title": "Giải Tích 3 - Lý thuyết",
+  "description": "Hệ thống kiến thức và bài tập theo chương trình.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Chương 1: Hàm nhiều biến",
+      "groups": [
+        {
+          "title": "Lý thuyết",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Giới hạn và liên tục",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [
+                {
+                  "title": "Slide bài giảng",
+                  "url": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

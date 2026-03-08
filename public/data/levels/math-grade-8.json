@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-8",
+  "title": "Toán Lớp 8",
+  "description": "Phép nhân chia đa thức, phân thức đại số, tứ giác.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-8-s1",
+      "title": "Học kì 1",
+      "description": "Phép nhân chia đa thức, Phân thức đại số, Tứ giác.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-8-s2",
+      "title": "Học kì 2",
+      "description": "Phương trình bậc nhất, Bất phương trình, Tam giác đồng dạng.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

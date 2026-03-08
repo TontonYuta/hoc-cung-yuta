@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-3",
+  "title": "Toán Lớp 3",
+  "description": "Phép nhân chia, chu vi diện tích, số đến 100.000.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-3-s1",
+      "title": "Học kì 1",
+      "description": "Phép nhân chia, Góc vuông, Chu vi.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-3-s2",
+      "title": "Học kì 2",
+      "description": "Các số đến 100.000, Diện tích.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

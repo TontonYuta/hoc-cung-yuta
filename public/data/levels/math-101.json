@@ -1,0 +1,71 @@
+{
+  "courseId": "math-101",
+  "title": "Toán Phổ Thông",
+  "description": "Khóa học bao gồm các kiến thức từ cơ bản đến nâng cao.",
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Chương 1: Mệnh đề & Tập hợp",
+      "groups": [
+        {
+          "title": "Lý thuyết cơ bản",
+          "lessons": [
+            {
+              "id": "l1-1",
+              "title": "Mệnh đề toán học là gì?",
+              "youtubeId": "dQw4w9WgXcQ",
+              "driveLink": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+            },
+            {
+              "id": "l1-2",
+              "title": "Các phép toán trên tập hợp",
+              "youtubeId": "dQw4w9WgXcQ"
+            }
+          ]
+        },
+        {
+          "title": "Bài tập nâng cao",
+          "lessons": [
+            {
+              "id": "l1-3",
+              "title": "Chứng minh phản chứng",
+              "youtubeId": "dQw4w9WgXcQ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-2",
+      "title": "Chương 2: Hàm số bậc nhất & bậc hai",
+      "groups": [
+        {
+          "title": "Kiến thức cốt lõi",
+          "lessons": [
+            {
+              "id": "l2-1",
+              "title": "Đồ thị hàm số bậc nhất",
+              "youtubeId": "dQw4w9WgXcQ"
+            },
+            {
+              "id": "l2-2",
+              "title": "Sự biến thiên của hàm số",
+              "youtubeId": "dQw4w9WgXcQ"
+            }
+          ]
+        },
+        {
+          "title": "Luyện thi đại học",
+          "lessons": [
+            {
+              "id": "l2-3",
+              "title": "Bài toán tham số m",
+              "youtubeId": "dQw4w9WgXcQ",
+              "driveLink": "https://drive.google.com/file/d/1j2fwWE_A68uPGoY_0iAJDCZrrlCti3eQ/view?usp=sharing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "courseId": "prob-stats-data-science",
+  "title": "Xác suất trong Data Science",
+  "description": "Kết nối lý thuyết xác suất với các thuật toán Machine Learning.",
+  "levels": [
+    {
+      "id": "ds-application",
+      "title": "Ứng dụng trong Mô hình hóa",
+      "groups": [
+        {
+          "title": "Xác suất & Thuật toán",
+          "lessons": [
+            {
+              "id": "ds-l1",
+              "title": "Phân loại Naive Bayes trong lọc Spam",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [{"title": "Code mẫu Python", "url": "https://drive.google.com/..."}]
+            },
+            {
+              "id": "ds-l2",
+              "title": "Ước lượng hợp lệ tối đa (Maximum Likelihood Estimation)",
+              "youtubeId": "dQw4w9WgXcQ",
+              "documents": [{"title": "Slide ứng dụng MLE", "url": "https://drive.google.com/..."}]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

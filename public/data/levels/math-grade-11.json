@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-11",
+  "title": "Toán Lớp 11",
+  "description": "Lượng giác, tổ hợp xác suất, dãy số, giới hạn.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-11-s1",
+      "title": "Học kì 1",
+      "description": "Lượng giác, Dãy số, Cấp số cộng/nhân, Giới hạn.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-11-s2",
+      "title": "Học kì 2",
+      "description": "Đạo hàm, Quan hệ vuông góc, Xác suất.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}

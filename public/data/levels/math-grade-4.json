@@ -1,0 +1,20 @@
+{
+  "courseId": "math-grade-4",
+  "title": "Toán Lớp 4",
+  "description": "Số tự nhiên lớp lớn, phân số, hình học.",
+  "levels": [],
+  "subCourses": [
+    {
+      "id": "math-grade-4-s1",
+      "title": "Học kì 1",
+      "description": "Số tự nhiên, Bốn phép tính, Hình học.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    },
+    {
+      "id": "math-grade-4-s2",
+      "title": "Học kì 2",
+      "description": "Phân số, Các phép tính với phân số.",
+      "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&q=80"
+    }
+  ]
+}
